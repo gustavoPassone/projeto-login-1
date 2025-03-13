@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Tela Login</title>
+</head>
+<body>
+    <main>
+        <img src="img-train.svg" alt="trem">
+        <div class="container">
+            <div class="login">
+                <header>
+                    <h1>Bem-vindo!</h1>
+                    <div class="subtitle">
+                        <h2>Faça seu login</h2>
+                        <p>Utilize as credenciais fornecidas pelo administrador</p>
+                    </div>
+                </header>
+                <form>
+                     <div class="input-form">
+                        <label for="email">E-mail</label>
+                        <input type="email" placeholder="Entre com seu E-mail" id="email">
+                     </div>
+                     <div class="input-form">
+                         <label for="senha">Senha</label>
+                         <div class="input-senha">
+                             <input type="password" placeholder="Entre com sua Senha" id="senha">
+                             <img src="img-password.svg" alt="mostrar senha" id="toggleSenha">
+                         </div>
+                     </div>
+                     <div class="checkbox">
+                        <div class="lembrar">
+                            <input type="checkbox" id="lembrar">
+                            <label for="lembrar">Lembrar-me</label>
+                        </div>
+                        <a href="#">Esqueceu a senha?</a>
+                     </div>
+                     <input type="submit" value="Entrar" class="btn">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
