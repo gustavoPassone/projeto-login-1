@@ -115,6 +115,10 @@ main {
                     font-weight: 500;
                     cursor: pointer;
                 }
+
+                & .btn:hover {
+                    background-color: #1f1f1f;
+                }
             }
         }
     }
